@@ -1,0 +1,143 @@
+h1{
+  text-align: center;
+
+}
+
+*{
+  font-family: serif;
+}
+
+#mainBox {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 35px;
+  border-radius: 3px;
+  border-style: dashed;
+  /* border-color: #ddd; */
+}
+
+#mainBox #new-item #inputText {
+  width: 80%;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px;
+  /* border-style: solid; */
+  border-bottom-style: solid;
+  /* border-color: #aaa; */
+}
+
+#mainBox #new-item #inputText: focus{
+  outline: none;
+}
+
+#mainBox #new-item #new-submit{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+  top: 5px;
+}
+
+#mainBox .todo{
+  font-size: 30px;
+  padding: 20px 0px;
+  border-bottom: 1px dotted #aaa;
+}
+
+#mainBox .todo:last-of-type {
+  border-bottom: none;
+}
+
+#mainBox .todo p {
+  display: inline-block;
+  margin: 0px;
+  max-width: 80%;
+}
+
+#mainBox .todo button{
+  background: none;
+  position: relative;
+  bottom: -2px;
+}
+
+#mainBox .todo .check {
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #888;
+  border-radius: 4px;
+}
+
+#mainBox .todo .check:hover {
+  background-color: maroon;
+}
+
+#mainBox .todo .check:active {
+  background-color: black;
+}
+
+#mainBox .todo.completed p {
+
+  text-decoration: line-through;
+}
+
+#mainBox .todo.completed  .check{
+  background-color: maroon;
+}
+#mainBox .todo .delete {
+  float: right;
+  border: none;
+  font-size: 30px;
+  padding: 5px 10px;
+  width: 30px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+/*
+.wholeThing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: yellow; */
+/* }
+.centeredBox{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: groove;
+
+}
+.toCenter{
+  align-items: center;
+  flex-direction: column;
+
+  background-color: green;
+}
+
+.todo{
+  display: inline;
+  display: flex;
+  align-items: center;
+  background-color: white;
+} */
+
+/* button{
+  font-family: fantasy;
+}
+p{
+  display: inline-block;
+  font-family: fantasy;
+} */
